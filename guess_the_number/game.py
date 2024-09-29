@@ -25,8 +25,7 @@ def random_number(difficulty: str) -> int:
             max_number = 66
         case "EASY":
             max_number = 33
-    print(f"I thought of a number between {
-          min_number} and {max_number} try to guess it")
+    print(f"I thought of a number between {min_number} and {max_number} try to guess it")  # nopep8
     return randrange(min_number, max_number)
 
 
